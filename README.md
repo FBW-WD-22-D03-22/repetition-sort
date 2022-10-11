@@ -15,7 +15,7 @@ console.log(stringArray.sort());
 console.log(numberArray.sort())
 ```
 ---
-:large_blue_circle:`sort()` can take as an optional parameter a function, which helps us to define the sort order. `array.sort(compareFunction)`
+:large_blue_circle:`sort()` can take a function as an optional parameter, which helps us to define the sort order. `array.sort(compareFunction)`
 
 ```javascript
 function compareFunction(a, b) {
