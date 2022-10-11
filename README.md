@@ -17,7 +17,7 @@ console.log(numberArray.sort())
 ---
 :large_blue_circle:`sort()` can take as an optional parameter a function, which helps us to define the sort order. `array.sort(compareFunction)`
 
-```
+```javascript
 function compareFunction(a, b) {
   if (a is less than b by some ordering criterion) {
     return -1;
@@ -44,7 +44,7 @@ function compareFunction(a, b) {
 2. Create an array, which holds 6 firstnames of the Breaking Bugs and sort the array according to the length of the names. 
 The sorted array should start with the shortest name.
 
-```
+```javascript
 const breakingBugs = ["Maximilian" , "Tim", "Kesban", "Abdulrazak", "Mila", "Mohammad"]
 
 after sort the array should look like that:
@@ -66,7 +66,7 @@ const numberArray = [ 1, 20, 10, 250, -8, 43]
 ---
 4. Sort the cart items according to the price
 
-```
+```javascript
 const cart = [
     {article: "shoes", price: 49.99},
     {article: "laptop", price: 999.99},
