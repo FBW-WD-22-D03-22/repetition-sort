@@ -34,10 +34,11 @@ function compareFunction(a, b) {
 -----
 ## :cartwheeling: Exercise
 
-1. The `charCodeAt()` method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. Print the code unit for letter of the letter array. 
+1. The `charCodeAt()` method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. Print the code unit for each letter of the letter array. 
 
 `const letters = ["a", "u", "t", "p", "x"]`
 
+---
 
 2. Create an array, which holds 6 firstnames of the Breaking Bugs and sort the array according to the length of the names. 
 The sorted array should start with the shortest name.
