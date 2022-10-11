@@ -36,7 +36,7 @@ function compareFunction(a, b) {
 ## :cartwheeling: Exercise
 
 1. The `charCodeAt()` method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. Print the code unit for each letter of the letter array. 
-:point_right:[mdn charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)\
+:point_right:[mdn charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 `const letters = ["a", "u", "t", "p", "x"]`
 
