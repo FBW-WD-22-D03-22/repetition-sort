@@ -5,14 +5,15 @@
 ---
 `console.log()` both arrays and have a look how they get sorted, when using `sort()` only by default.
 
+```javascript
 const stringArray = ["ba", "f", "ea", "cf", "baa", "b"];
 
 const numberArray = [ 1, 20, 10, 250, -8, 43]
 
-`console.log(stringArray.sort());`
+console.log(stringArray.sort());
 
-`console.log(numberArray.sort())`
-
+console.log(numberArray.sort())
+```
 ---
 :large_blue_circle:`sort()` can take as an optional parameter a function, which helps us to define the sort order. `array.sort(compareFunction)`
 
