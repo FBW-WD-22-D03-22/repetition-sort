@@ -1,4 +1,4 @@
-## Sort()
+## sort()
 
 :large_blue_circle:The `sort()` method sorts the elements of an array and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
